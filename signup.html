@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif}
+* {box-sizing: border-box}
+.speaker{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.068);
+    border: 1px solid rgba(245, 245, 245, 0.308);
+    width: 50%;
+    height: 20%;
+    margin: 40px 0;
+    padding: 50px;
+}
+.h2{
+  text-emphasis-color: white;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #0f0f0f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+  background-color: green;
+  transition-duration: 04ms;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  align-content: right;
+}
+label{
+    float: left;
+}
+h4 {
+  background-color: #0f0f0f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+img {
+  width: 100;
+  height: 80;
+  display: block;
+  object-fit: cover;
+  z-index: -1;
+}
+.container {
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    display: block;
+    position: absolute;
+    left: 50%;
+}
+.red{
+  color: #131212;
+}
+.black{
+  color: black;
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
+</style>
+</head>
+<body>
+    <img src="img/logo.png" width="250px">
+   <h2 style="color: #161515;">SIGN UP</h2>
+<header class="speaker">
+    <form action="/action_page.php" method="post">
+        <div class="red">
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw-repeat"><b>Confirm Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+          
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            
+           <button type="submit" class="signupbtn" formaction="index1.html">Sign Up</button>
+          </div>
+        </div>
+      </form>
+      
+</header>
+</body>
+</html>
+
+
