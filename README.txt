@@ -1,36 +1,15 @@
+Screenshot 1:
+A Windows File Explorer window showing a directory listing of multiple image files (likely screenshots) with filenames formatted as timestamps (e.g., "Screenshot 2025-05-09 130405.png"). The layout is in thumbnail view, displaying small previews of each image.
 
-TITLE: 
-Resto - 100% Fully Responsive HTML5 Bootstrap 4 Template for Restaurants
+Screenshot 2–7 (Grouped):
+Each of these screenshots appears to show parts of a digital form or system interface, possibly a web-based application or internal dashboard. Here’s a breakdown of common elements across them:
 
-AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co and FreeHTML5.co
+User Interface Layout: All images display a table or form with columns such as ID, Name, Email, Phone, etc.
 
-Websites: https://gettemplates.co https://freehtml5.co/
+Form Controls: Each includes buttons like “Edit,” “Delete,” or "Save," indicating user interaction features.
 
+Content: Data entries likely represent user or customer records, showing details like names, contact info, and action buttons for editing or deleting.
 
-CREDITS:
+Color Scheme: Predominantly white background with blue highlights for buttons and headers.
 
-Bootstrap
-http://getbootstrap.com/
-
-jQuery
-http://jquery.com/
-
-OwlCarousel
-https://owlcarousel2.github.io/OwlCarousel2/
-
-IsotopeSelect2
-https://select2.org
-
-Featherlight
-https://noelboss.github.io/featherlight/
-
-Stellar
-http://markdalgleish.com/projects/stellar.js/
-
-Tempus Dominus
-https://tempusdominus.github.io/bootstrap-4/
-
-Demo Images:
-http://unsplash.com
-
+Structure: Clean tabular format, possibly paginated or scrollable with filtering/search options.
